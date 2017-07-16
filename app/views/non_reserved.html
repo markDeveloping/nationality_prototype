@@ -8,20 +8,29 @@
 
 <main id="content" role="main">
   <div class="grid-row">
-	<div class="column-one-quarter">
-	<nav>
-	<p>Navigation</p>
-	<a href="/reserved">Reserved example</a>
-	<a href="/non-reserved">Non reserved example</a>
-	</nav>
-	</div>
+  <div class="column-one-quarter">
+  <nav>
+  <p>Navigation</p>
+  <a href="/reserved">Reserved example</a>
+  <a href="/non-reserved">Non reserved example</a>
+  </nav>
+  </div>
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
         Eligibility
       </h1>
       <h2 class="heading-large">Nationality requirements</h2>
-      <p>Open to UK Nationals only.</p>
+      <p>This job is open to citizens from the following countries and assosciation of countries:</p>
+      <ul class="list list-bullet">
+        <li>United Kingdom</li>
+        <li>Republic of Ireland</li>
+        <li><a href="http://thecommonwealth.org/member-countries" target="_blank">Commonwealth</a></li>
+        <li><a href="https://www.gov.uk/eu-eea" target="_blank">European Economic Area (EEA)</a></li>
+        <li>Switzerland</li>
+        <li>Turkey</li>
+      </ul>
+      <p>Certain family members of EEA, Swiss and Turkish nationals are also eligible.</p>
       <p>For further detials, see the <a href="https://www.gov.uk/government/publications/nationality-rules" target="_blank">Civil Service Nationality Rules</a>.</p>
       <form>
   <div class="form-group question-one">
@@ -50,7 +59,7 @@
 
       <legend>
         <h3 class="heading-medium">
-          Do you hold dual nationality?
+          Do you have indefinate leave to remain in the UK?
         </h3>
       </legend>
 
@@ -65,6 +74,28 @@
 
     </fieldset>
     </div>
+  </div>
+        <h2 class="heading-large">Immigration</h2>
+
+        <div class="form-group question-three">
+    <fieldset class="inline">
+
+      <legend>
+        <h3 class="heading-medium">
+          Will you require sponsorship for a work related visa?
+        </h3>
+      </legend>
+
+      <div class="multiple-choice">
+        <input id="sponsorship-1" type="radio" name="radio-inline-group-3" value="Yes">
+        <label for="sponsorship-1">Yes</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="sponsorship-2" type="radio" name="radio-inline-group-3" value="No">
+        <label for="sponsorship-2">No</label>
+      </div>
+
+    </fieldset>
   </div>
   <input class="button" type="submit" value="Save and continue">
 </form>

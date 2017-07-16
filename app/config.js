@@ -4,7 +4,7 @@
 
 module.exports = {
   // Service name used in header. Eg: 'Renew your passport'
-  serviceName: 'Service name goes here',
+  serviceName: 'Civil Service Jobs',
 
   // Default port that prototype runs on
   port: '3000',
@@ -13,7 +13,7 @@ module.exports = {
   useAuth: 'true',
 
   // Automatically stores form data, and send to all views
-  useAutoStoreData: 'true',
+  useAutoStoreData: 'false',
 
   // Enable or disable built-in docs and examples.
   useDocumentation: 'true',

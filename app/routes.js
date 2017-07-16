@@ -7,5 +7,13 @@ router.get('/', function (req, res) {
 })
 
 // add your routes here
+router.get('/reserved', function (req, res) {
+  res.render('index')
+})
+
+router.get('/non-reserved', function (req, res) {
+  res.render('non_reserved')
+})
+
 
 module.exports = router

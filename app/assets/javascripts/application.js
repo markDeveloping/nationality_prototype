@@ -16,4 +16,17 @@ $(document).ready(function () {
   // to toggle hidden content
   var showHideContent = new GOVUK.ShowHideContent()
   showHideContent.init()
+
+  $('.question-two').hide();
+
+  $('input[type=radio][name=radio-inline-group-1]').change(function() {
+        if (this.value == 'Yes') {
+            $('.question-two').show();
+        }
+        else if (this.value == 'No') {
+            $('.question-two').hide();
+        }
+    });
+
 })
+
