@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  CS Jobs - Nationality Prototype
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+	<div class="column-one-quarter">
+	<nav>
+	<p>Examples</p>
+  <a href="/reserved">Reserved</a>
+	<a href="/reserved_plus">Reserved (no dual nationals)</a>
+  <a href="/non-reserved">Non reserved</a>
+	<a href="/non-reserved_plus">Non-reserved (with indefinate leave to remain)</a>
+	</nav>
+	</div>
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        Eligibility
+      </h1>
+      <h2 class="heading-large">Nationality requirements</h2>
+      <p>Open to UK Nationals only.</p>
+      <p>Identification document will be checked at a later stage in the recruitment process.</p>
+      <form>
+  <div class="form-group question-one">
+    <fieldset class="inline">
+
+      <legend>
+        <h3 class="heading-medium">
+          Do you meet the nationality requirements?
+        </h3>
+      </legend>
+
+      <div class="multiple-choice">
+        <input id="nationality-1" type="radio" name="radio-inline-group-1" value="Yes">
+        <label for="nationality-1">Yes</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="nationality-2" type="radio" name="radio-inline-group-1" value="No">
+        <label for="nationality-2">No</label>
+      </div>
+
+    </fieldset>
+  </div>
+  
+  <input class="button" type="submit" value="Save and continue">
+</form>
+</main>
+
+{% endblock %}
+
+

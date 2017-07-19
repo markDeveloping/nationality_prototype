@@ -33,8 +33,8 @@
         <li>Turkey</li>
       </ul>
       <p>Certain family members of EEA, Swiss and Turkish nationals are also eligible.</p>
+      <p>You must have indefinate leave to remain in the UK.</p>
       <p>For further detials, see the <a href="https://www.gov.uk/government/publications/nationality-rules" target="_blank">Civil Service Nationality Rules</a>.</p>
-      <p>Identification document will be checked at a later stage in the recruitment process.</p>
       <form>
   <div class="form-group question-one">
     <fieldset class="inline">
@@ -56,52 +56,32 @@
 
     </fieldset>
   </div>
-        <h2 class="heading-large">Immigration</h2>
-        <p></p>
-        <div class="form-group question-three">
+  <div class="form-group question-two">
+  <div class="panel panel-border-narrow">
     <fieldset class="inline">
 
       <legend>
         <h3 class="heading-medium">
-          Are you free to remain and take up work in the UK?
+          Do you have settled status (also known as indefinate leave to remain)?
+          <span class="form-hint">This means you can stay in the UK without any time restrictions</span>
         </h3>
       </legend>
 
       <div class="multiple-choice">
-        <input id="remain-1" type="radio" name="radio-inline-group-3" value="Yes">
-        <label for="remain-1">Yes</label>
+        <input id="dual-1" type="radio" name="radio-inline-group-2" value="Yes">
+        <label for="dual-1">Yes</label>
       </div>
       <div class="multiple-choice">
-        <input id="remain-2" type="radio" name="radio-inline-group-3" value="No">
-        <label for="remain-2">No</label>
+        <input id="dual-2" type="radio" name="radio-inline-group-2" value="No">
+        <label for="dual-2">No</label>
       </div>
 
     </fieldset>
+    </div>
   </div>
-  <div class="form-group question-three">
-    <fieldset class="inline">
-
-      <legend>
-        <h3 class="heading-medium">
-          Do you require sponsorship for a work related visa?
-        </h3>
-      </legend>
-
-      <div class="multiple-choice">
-        <input id="sponsorship-1" type="radio" name="radio-inline-group-4" value="Yes">
-        <label for="sponsorship-1">Yes</label>
-      </div>
-      <div class="multiple-choice">
-        <input id="sponsorship-2" type="radio" name="radio-inline-group-4" value="No">
-        <label for="sponsorship-2">No</label>
-      </div>
-
-    </fieldset>
-  </div>
+ 
   <input class="button" type="submit" value="Save and continue">
 </form>
 </main>
 
 {% endblock %}
-
-
