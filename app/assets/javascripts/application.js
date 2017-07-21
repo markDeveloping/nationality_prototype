@@ -17,7 +17,7 @@ $(document).ready(function () {
   var showHideContent = new GOVUK.ShowHideContent()
   showHideContent.init()
 
-  $('.question-two').hide();
+  $('.question-two, .question-four').hide();
 
   $('input[type=radio][name=radio-inline-group-1]').change(function() {
         if (this.value == 'Yes') {
@@ -25,6 +25,15 @@ $(document).ready(function () {
         }
         else if (this.value == 'No') {
             $('.question-two').hide();
+        }
+    });
+
+ $('input[type=radio][name=radio-inline-group-3]').change(function() {
+        if (this.value == 'Yes') {
+            $('.question-four').hide();
+        }
+        else if (this.value == 'No') {
+            $('.question-four').show();
         }
     });
 
