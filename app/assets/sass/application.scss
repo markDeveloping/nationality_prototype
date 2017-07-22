@@ -29,9 +29,21 @@ $path: "/public/images/";
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
-nav {
+.nav-side {
+  padding-top: 30px;
   a {
   display: block;
-  
+  text-decoration: none;
+  background-color: #005EA5;
+  color: #fff;
+  padding: 2px 6px 2px 6px;
+  border-radius: 0.1em;
+  margin-bottom: 3px;
+  &:hover, &:visited {
+    color: #fff;
+  }
+  &:hover {
+    background-color: #2B8CC4;
+  }
   }
 }
